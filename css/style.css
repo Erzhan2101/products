@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*============catalog=============*/
+.catalog {
+    padding: 73px 0 51px;
+
+}
+
+.catalog__subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+}
+
+.catalog__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 71px;
+    text-align: center;
+    color: #030D15;
+}
+
+.tabs {
+    text-align: center;
+    margin: 22px 0 50px;
+}
+
+.tabs a {
+    margin-right: 40px;
+}
+
+.catalog__tab {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #030D15;
+    opacity: 0.6;
+    transition: .5s;
+}
+
+.catalog__tab:hover {
+    color: #C72535;
+}
+
+.rating {
+    color: #C72535;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+
+}
+
+.product {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 35px 35px 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product:hover .product__item {
+    bottom: 0;
+}
+
+.product__title {
+    line-height: 27px;
+    color: #030D15;
+}
+
+.product__img {
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 50px;
+}
+
+.product__name {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15;
+}
+
+.product__price {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #030D15;
+    margin-bottom: 7px;
+}
+
+
+.product__old-price {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+}
+
+.card__rating {
+    display: flex;
+    align-items: center;
+}
+
+.product__item {
+    padding: 28px 35px;
+    background: #FAFAFA;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    transition: .6s;
+
+}
+
+.product__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.card__custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__right-side {
+    display: flex;
+    align-items: center;
+
+}
+
+.card__right-side svg:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
